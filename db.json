@@ -1,0 +1,71 @@
+{
+  "link": [
+    {
+      "title": "Facebook",
+      "link": "facebook.com",
+      "id": 1
+    },
+    {
+      "title": "Instagram",
+      "link": "www.instagram.com",
+      "id": 2
+    },
+    {
+      "title": "Whatsapp",
+      "link": "www.whatsapp.com",
+      "id": 3
+    },
+    {
+      "title": "Coding",
+      "link": "codingbat.com",
+      "id": 4
+    },
+    {
+      "title": "Codewar",
+      "link": "www.codewar.com",
+      "id": 5
+    },
+    {
+      "title": "Twitter",
+      "link": "www.twitter.com",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "fname": "Bibi",
+      "lname": "Aremieye",
+      "email": "bibiaremieye@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "fname": "Bibirinbulu",
+      "lname": "Aremieye",
+      "email": "bibiaremieye1@gmail.com",
+      "password": "1234",
+      "id": 2
+    },
+    {
+      "fname": "Savvyp",
+      "lname": "Onyins",
+      "email": "savvyp@gmail.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "fname": "Ere",
+      "lname": "Aremieye",
+      "email": "erekpo@gmail.com",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "fname": "Erekpokeme",
+      "lname": "Aremieye",
+      "email": "erekpokeme@gmail.com",
+      "password": "1234",
+      "id": 5
+    }
+  ]
+}

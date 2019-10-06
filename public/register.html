@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>YSL</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="home">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="log">
+                <a href="index.html">Login</a>
+                <a href="register.html">Register</a>
+            </div>
+        </nav>
+
+        <form id="submit-register">
+            <h1 class="form-text">Register Here</h1>
+            <div class="name-div">
+                <input type="text" id="fname" placeholder="Your Firstname...">
+            </div>
+            <div class="name-div">
+                <input type="text" id="lname" placeholder="Your Lastname...">
+            </div>
+            <div class="email-div">
+                <input type="email" id="email-register" placeholder="Your E-Mail...">
+            </div>
+            <div class="password-div">
+                <span class="show-password">show</span>
+                <input type="password" id="password-register" placeholder="Your password...">
+            </div>
+            <div class="submt-div">
+                <input type="submit" id="submit" value="Submit">
+            </div>
+        </form>
+        <div class="redirect">
+            <span>Login if you have register already</span>
+            <a href="index.html">Login</a>
+        </div>
+    </div>
+
+    <script src="js/register.js"></script>
+</body>
+</html>

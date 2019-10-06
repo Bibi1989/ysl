@@ -1,0 +1,11 @@
+{
+  "name": "yoursociallink",
+  "version": "1.0.0",
+  "description": "Store Your Social Url link",
+  "main": "server.js",
+  "scripts": {
+    "server": "json-server -w db.json"
+  },
+  "author": "Bibirinbulu Aremieye",
+  "license": "ISC"
+}

@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 10px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 15px 2px #999;
+}
+nav a{
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav .log a{
+    margin-left: 30px;
+}
+
+#submit-login, #submit-register{
+    width: 400px;
+    margin: 5% auto;
+    border: 1px solid #777;
+    padding: 2%;
+    border-radius: 5px;
+    background: rgba(47, 0, 255, 0.233);
+    box-shadow: 0 2px 15px #777;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #777;
+    margin-bottom: 40px;
+    outline: none;
+}
+
+.form-text{
+    margin: 20px 0 30px 0;
+    text-align: center;
+}
+
+.submit-div{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"]{
+    padding: 10px 20px;
+    margin: auto;
+    font-size: 20px;
+    background: #076bee;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #999;
+    outline: none;
+}
+
+.redirect{
+    display: block;
+    margin: 5% auto;
+    width: 400px;
+}
+
+.redirect a{
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    background: #076bee;
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #999;
+    outline: none;
+}
+
+.alert{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.password-div{
+    position: relative;
+}
+
+.show-password{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.show-password:hover{
+    color: #111;
+}
+
+.reg{
+    text-decoration: none;
+    color: cyan;
+    font-size: 20px;
+}
+
+.wel{
+    margin: 30px;
+    padding-left: 20px;
+}
+
+.card{
+    margin: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px #999;
+}
+
+.card-h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.body{
+    margin: 5%;
+    padding: 20px 10%;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px #999;
+}
+
+.body h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.body p{
+    margin: 10px 0;
+    display: block;
+    font-size: 20px;
+}
+
+.del, .edit{
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px #999;
+}
+
+.del{
+    color: wheat;
+    background: red;
+}
+
+.edit{
+    color: wheat;
+    background: #006eff;
+}
+
+.pop{
+    display: none;
+    width: 400px;
+    margin: auto;
+    padding: 30px 15px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(47, 0, 255, 0.932);
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 2px 15px #999;
+}
+
+.pop input[type= "text"]{
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+
+.pop .close{
+    cursor: pointer;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.pop h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.pop .pop-up{
+    display: grid;
+}
+
+.pop .pop-up input[type= "button"]{
+    align-self: center;
+    margin: auto;
+}
